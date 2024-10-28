@@ -10,7 +10,7 @@ services:
             - TZ=$tzone
       volumes:
         - /var/run/docker.sock:/var/run/docker.sock
-        - portainer_data:/data 
+        - portainer-data:/data 
       ports:
         - 8000:8000
         - 9443:9443
